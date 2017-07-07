@@ -8,4 +8,9 @@ import {UserListComponent} from './user-list/user-list.component'
 })
 export class AppComponent {
   title = 'app works!';
+  addArticle(title: HTMLInputElement, link: HTMLInputElement):boolean
+  {
+    console.log(`Adding article title: ${title.value} and value: ${link.value}`)
+return false;
+  }
 }
