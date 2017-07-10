@@ -71,6 +71,13 @@ export class ArticleComponent implements OnInit {
 }
 
 ```
+#Use the app-article Component
+```
+Add the <app-article> tag to the AppComponent’s template
+```
+In order to use this component and make the data visible add in the parent component
+
+# Rendering Multiple Rows,
 
 ## Development server
 
