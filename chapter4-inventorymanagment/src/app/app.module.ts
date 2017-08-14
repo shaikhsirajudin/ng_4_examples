@@ -37,6 +37,6 @@ import { NavigationComponent } from './navigation/navigation.component';
     HttpModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [InventoryAppComponent,AppComponent]
 })
 export class AppModule { }
